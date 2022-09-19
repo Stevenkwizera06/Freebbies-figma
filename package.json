@@ -1,0 +1,19 @@
+{
+  "name": "freebbies-figma",
+  "version": "1.0.0",
+  "description": "Lasles VPN",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevenkwizera06/Freebbies.git"
+  },
+  "author": "Steven",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevenkwizera06/Freebbies/issues"
+  },
+  "homepage": "https://github.com/Stevenkwizera06/Freebbies#readme"
+}
