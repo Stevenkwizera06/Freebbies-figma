@@ -6,13 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Freebbies</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700&display=swap" rel="stylesheet">
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            "rubik":['Rubik','sans-serif']
+          }
+        }
+      }
+    }
+  </script>
 
 </head>
 
 
-<body class="mx-auto lg:body__class-container bg-[#F6F6F6]">
+<body class="mx-auto  bg-[#F6F6F6] font-rubik">
 
-    <header class="fixed top-0 bg-white-500 w-full shadow-lg">
+    <header class="fixed  bg-white-500 w-full  z-40">
         <nav class="text-black bg-white flex justify-between ml-0 p-4">
             <div class="flex items-center ">
                 <svg class="h-8 w-auto " width="149" height="37" viewBox="0 0 149 37" fill="none"
@@ -40,7 +54,7 @@
                     Pricing
                 </a>
                 <a
-                    class="px-4 py-2 mx-2 cursor-pointer animation-hover inline-block relative text-black-500 hover:text-orange-500 ">
+                    class="px-4 py-2 mx-2 cursor-pointer   inline-block relative text-black-500 hover:text-orange-500 ">
                     Testimonial
                 </a>
             </ul>
